@@ -7,6 +7,15 @@ function BeyondTech() {
       <h2 className="section-title">🚀 Beyond Tech</h2>
 
       <div className="beyond-container">
+    {/* Achievement */}
+<div className="beyond-card">
+  <h3>Best Student Award – Soft Skills (2025)</h3>
+  <p>
+    Honored with the Best Student Award for exceptional soft skills, including communication, leadership,
+    teamwork, and adaptability. Recognized for excellence in interpersonal abilities and professional conduct.
+  </p>
+</div>
+
         {/* Hackathon 1 - Infineon */}
         <div className="beyond-card">
           <h3>Infineon Hackathon – Pattern Play with CapSense (Feb 2025)</h3>
@@ -26,14 +35,7 @@ function BeyondTech() {
           </p>
         </div>
 
-        {/* NGO Work */}
-        <div className="beyond-card">
-          <h3>NGO Volunteer – Child Education Initiative (June - July 2023)</h3>
-          <p>
-            Volunteered with a non-profit organization to promote education among underprivileged children.
-            Organized learning sessions, distributed educational kits, and supported community-based awareness campaigns.
-          </p>
-        </div>
+       
       </div>
 
       <style>
@@ -98,3 +100,4 @@ function BeyondTech() {
 }
 
 export default BeyondTech;
+
